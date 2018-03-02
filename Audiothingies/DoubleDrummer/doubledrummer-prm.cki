@@ -111,8 +111,8 @@
 				"slot_88" : { "MIDI_CC" : 118, "label" : "FX frq" },
 				"slot_89" : { "MIDI_CC" : 119, "label" : "FX res" },
 
-				"slot_90" : { "track_control" : "pgm" },
-				"slot_91" : { "track_control" : "quant%" }
+				"slot_91" : { "track_control" : "pgm" },
+				"slot_92" : { "track_control" : "quant%" }
 			},
 
 			"CC_defs" :
