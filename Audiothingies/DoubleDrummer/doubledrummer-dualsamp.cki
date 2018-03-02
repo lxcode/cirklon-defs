@@ -6,7 +6,7 @@
             "midi_port" : 1,
             "midi_chan" : 2,
             "poly_spread" : "off",
-			"default_note" : "C 3",
+			"default_note" : "E 4",
 			"default_patt" : "CK",
 			"no_xpose" : true,
 			"no_fts" : true,
