@@ -1,0 +1,199 @@
+{
+    "instrument_data" :
+    {
+        "DblDrm Sm" :
+        {
+            "midi_port" : 1,
+            "midi_chan" : 2,
+            "poly_spread" : "off",
+			"default_note" : "C 3",
+			"default_patt" : "CK",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"no_thru" : false,
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 12, "label" : "S1 smp" },
+				"slot_2" : { "MIDI_CC" : 13, "label" : "S1 ton" },
+				"slot_3" : { "MIDI_CC" : 14, "label" : "S1 dec" },
+				"slot_4" : { "MIDI_CC" : 15, "label" : "S1 cmp" },
+				"slot_5" : { "MIDI_CC" : 16, "label" : "S1 cut" },
+				"slot_6" : { "MIDI_CC" : 17, "label" : "S1 res" },
+
+				"slot_7" : { "MIDI_CC" : 18, "label" : "S2 smp" },
+				"slot_8" : { "MIDI_CC" : 19, "label" : "S2 ton" },
+				"slot_9" : { "MIDI_CC" : 20, "label" : "S2 dec" },
+				"slot_10" : { "MIDI_CC" : 21, "label" : "S2 cmp" },
+				"slot_11" : { "MIDI_CC" : 22, "label" : "S2 cut" },
+				"slot_12" : { "MIDI_CC" : 23, "label" : "S2 res" },
+
+				"slot_13" : { "MIDI_CC" : 24, "label" : "S3 smp" },
+				"slot_14" : { "MIDI_CC" : 25, "label" : "S3 ton" },
+				"slot_15" : { "MIDI_CC" : 26, "label" : "S3 dec" },
+				"slot_16" : { "MIDI_CC" : 27, "label" : "S3 cmp" },
+				"slot_17" : { "MIDI_CC" : 28, "label" : "S3 cut" },
+				"slot_18" : { "MIDI_CC" : 29, "label" : "S3 res" },
+
+				"slot_19" : { "MIDI_CC" : 39, "label" : "S4 smp" },
+				"slot_20" : { "MIDI_CC" : 40, "label" : "S4 ton" },
+				"slot_21" : { "MIDI_CC" : 41, "label" : "S4 dec" },
+				"slot_22" : { "MIDI_CC" : 42, "label" : "S4 cmp" },
+				"slot_23" : { "MIDI_CC" : 43, "label" : "S4 cut" },
+				"slot_24" : { "MIDI_CC" : 44, "label" : "S4 res" },
+
+				"slot_25" : { "MIDI_CC" : 45, "label" : "S5 smp" },
+				"slot_26" : { "MIDI_CC" : 46, "label" : "S5 ton" },
+				"slot_27" : { "MIDI_CC" : 47, "label" : "S5 dec" },
+				"slot_28" : { "MIDI_CC" : 48, "label" : "S5 cmp" },
+				"slot_29" : { "MIDI_CC" : 49, "label" : "S5 cut" },
+				"slot_30" : { "MIDI_CC" : 50, "label" : "S5 res" },
+
+				"slot_31" : { "MIDI_CC" : 51, "label" : "S6 smp" },
+				"slot_32" : { "MIDI_CC" : 52, "label" : "S6 ton" },
+				"slot_33" : { "MIDI_CC" : 53, "label" : "S6 dec" },
+				"slot_34" : { "MIDI_CC" : 54, "label" : "S6 cmp" },
+				"slot_35" : { "MIDI_CC" : 55, "label" : "S6 cut" },
+				"slot_36" : { "MIDI_CC" : 56, "label" : "S6 res" },
+
+				"slot_37" : { "MIDI_CC" : 57, "label" : "S1 on" },
+				"slot_38" : { "MIDI_CC" : 58, "label" : "S1 drv" },
+				"slot_39" : { "MIDI_CC" : 59, "label" : "S1 bit" },
+				"slot_40" : { "MIDI_CC" : 60, "label" : "S1 pan" },
+				"slot_41" : { "MIDI_CC" : 61, "label" : "S1 lvl" },
+				"slot_42" : { "MIDI_CC" : 62, "label" : "S1 fx" },
+
+				"slot_43" : { "MIDI_CC" : 65, "label" : "S2 on" },
+				"slot_44" : { "MIDI_CC" : 66, "label" : "S2 drv" },
+				"slot_45" : { "MIDI_CC" : 67, "label" : "S2 bit" },
+				"slot_46" : { "MIDI_CC" : 68, "label" : "S2 pan" },
+				"slot_47" : { "MIDI_CC" : 69, "label" : "S2 lvl" },
+				"slot_48" : { "MIDI_CC" : 70, "label" : "S2 fx" },
+
+				"slot_49" : { "MIDI_CC" : 71, "label" : "S3 on" },
+				"slot_50" : { "MIDI_CC" : 72, "label" : "S3 drv" },
+				"slot_51" : { "MIDI_CC" : 73, "label" : "S3 bit" },
+				"slot_52" : { "MIDI_CC" : 74, "label" : "S3 pan" },
+				"slot_53" : { "MIDI_CC" : 75, "label" : "S3 lvl" },
+				"slot_54" : { "MIDI_CC" : 76, "label" : "S3 fx" },
+
+				"slot_55" : { "MIDI_CC" : 77, "label" : "S4 on" },
+				"slot_56" : { "MIDI_CC" : 78, "label" : "S4 drv" },
+				"slot_57" : { "MIDI_CC" : 79, "label" : "S4 bit" },
+				"slot_58" : { "MIDI_CC" : 80, "label" : "S4 pan" },
+				"slot_59" : { "MIDI_CC" : 81, "label" : "S4 lvl" },
+				"slot_60" : { "MIDI_CC" : 82, "label" : "S4 fx" },
+
+				"slot_61" : { "MIDI_CC" : 83, "label" : "S5 on" },
+				"slot_62" : { "MIDI_CC" : 84, "label" : "S5 drv" },
+				"slot_63" : { "MIDI_CC" : 85, "label" : "S5 bit" },
+				"slot_64" : { "MIDI_CC" : 86, "label" : "S5 pan" },
+				"slot_65" : { "MIDI_CC" : 87, "label" : "S5 lvl" },
+				"slot_66" : { "MIDI_CC" : 88, "label" : "S5 fx" },
+
+				"slot_67" : { "MIDI_CC" : 89, "label" : "S6 on" },
+				"slot_68" : { "MIDI_CC" : 90, "label" : "S6 drv" },
+				"slot_69" : { "MIDI_CC" : 91, "label" : "S6 bit" },
+				"slot_70" : { "MIDI_CC" : 92, "label" : "S6 pan" },
+				"slot_71" : { "MIDI_CC" : 93, "label" : "S6 lvl" },
+				"slot_72" : { "MIDI_CC" : 94, "label" : "S6 fx" }
+            },
+
+			"row_defs" :
+			{
+				"E 4" : { "label" : "SP1", "always_show" : true },
+				"F 4" : { "label" : "SP2", "always_show" : true },
+				"G 4" : { "label" : "SP3", "always_show" : true },
+				"A 4" : { "label" : "SP4", "always_show" : true },
+				"B 4" : { "label" : "SP5", "always_show" : true },
+				"C 5" : { "label" : "SP6", "always_show" : true }
+			},
+
+            "CC_defs" :
+            {
+                "CC_12" : { "label" : "S1 smp" },
+                "CC_13" : { "label" : "S1 ton" },
+                "CC_14" : { "label" : "S1 dec" },
+                "CC_15" : { "label" : "S1 cmp" },
+                "CC_16" : { "label" : "S1 cut" },
+                "CC_17" : { "label" : "S1 res" },
+
+                "CC_18" : { "label" : "S2 smp" },
+                "CC_19" : { "label" : "S2 ton" },
+                "CC_20" : { "label" : "S2 dec" },
+                "CC_21" : { "label" : "S2 cmp" },
+                "CC_22" : { "label" : "S2 cut" },
+                "CC_23" : { "label" : "S2 res" },
+
+                "CC_24" : { "label" : "S3 smp" },
+                "CC_25" : { "label" : "S3 ton" },
+                "CC_26" : { "label" : "S3 dec" },
+                "CC_27" : { "label" : "S3 cmp" },
+                "CC_28" : { "label" : "S3 cut" },
+                "CC_29" : { "label" : "S3 res" },
+
+                "CC_39" : { "label" : "S4 smp" },
+                "CC_40" : { "label" : "S4 ton" },
+                "CC_41" : { "label" : "S4 dec" },
+                "CC_42" : { "label" : "S4 cmp" },
+                "CC_43" : { "label" : "S4 cut" },
+                "CC_44" : { "label" : "S4 res" },
+
+                "CC_45" : { "label" : "S5 smp" },
+                "CC_46" : { "label" : "S5 ton" },
+                "CC_47" : { "label" : "S5 dec" },
+                "CC_48" : { "label" : "S5 cmp" },
+                "CC_49" : { "label" : "S5 cut" },
+                "CC_50" : { "label" : "S5 res" },
+
+                "CC_51" : { "label" : "S6 smp" },
+                "CC_52" : { "label" : "S6 ton" },
+                "CC_53" : { "label" : "S6 dec" },
+                "CC_54" : { "label" : "S6 cmp" },
+                "CC_55" : { "label" : "S6 cut" },
+                "CC_56" : { "label" : "S6 res" },
+
+                "CC_57" : { "label" : "S1 on"  },
+                "CC_58" : { "label" : "S1 drv" },
+                "CC_59" : { "label" : "S1 bit" },
+                "CC_60" : { "label" : "S1 pan" },
+                "CC_61" : { "label" : "S1 lvl" },
+                "CC_62" : { "label" : "S1 fx"  },
+
+                "CC_65" : { "label" : "S2 on"  },
+                "CC_66" : { "label" : "S2 drv" },
+                "CC_67" : { "label" : "S2 bit" },
+                "CC_68" : { "label" : "S2 pan" },
+                "CC_69" : { "label" : "S2 lvl" },
+                "CC_70" : { "label" : "S2 fx"  },
+
+                "CC_71" : { "label" : "S3 on"  },
+                "CC_72" : { "label" : "S3 drv" },
+                "CC_73" : { "label" : "S3 bit" },
+                "CC_74" : { "label" : "S3 pan" },
+                "CC_75" : { "label" : "S3 lvl" },
+                "CC_76" : { "label" : "S3 fx"  },
+
+                "CC_77" : { "label" : "S4 on"  },
+                "CC_78" : { "label" : "S4 drv" },
+                "CC_79" : { "label" : "S4 bit" },
+                "CC_80" : { "label" : "S4 pan" },
+                "CC_81" : { "label" : "S4 lvl" },
+                "CC_82" : { "label" : "S4 fx"  },
+
+                "CC_83" : { "label" : "S5 on"  },
+                "CC_84" : { "label" : "S5 drv" },
+                "CC_85" : { "label" : "S5 bit" },
+                "CC_86" : { "label" : "S5 pan" },
+                "CC_87" : { "label" : "S5 lvl" },
+                "CC_88" : { "label" : "S5 fx"  },
+
+                "CC_89" : { "label" : "S6 on"  },
+                "CC_90" : { "label" : "S6 drv" },
+                "CC_91" : { "label" : "S6 bit" },
+                "CC_92" : { "label" : "S6 pan" },
+                "CC_93" : { "label" : "S6 lvl" },
+                "CC_94" : { "label" : "S6 fx"  }
+            }
+        }
+    }
+}

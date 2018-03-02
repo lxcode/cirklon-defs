@@ -1,0 +1,242 @@
+{
+    "instrument_data" :
+    {
+        "DblDrm Mx" :
+        {
+            "midi_port" : 1,
+            "midi_chan" : 1,
+            "poly_spread" : "off",
+			"default_note" : "C 3",
+			"default_patt" : "CK",
+			"no_xpose" : true,
+			"no_fts" : true,
+			"no_thru" : false,
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 12, "label" : "BD on" },
+				"slot_2" : { "MIDI_CC" : 13, "label" : "BD drv" },
+				"slot_3" : { "MIDI_CC" : 14, "label" : "BD bit" },
+				"slot_4" : { "MIDI_CC" : 15, "label" : "BD pan" },
+				"slot_5" : { "MIDI_CC" : 16, "label" : "BD lvl" },
+				"slot_6" : { "MIDI_CC" : 17, "label" : "BD fx" },
+
+				"slot_7" : { "MIDI_CC" : 18, "label" : "SD on" },
+				"slot_8" : { "MIDI_CC" : 19, "label" : "SD drv" },
+				"slot_9" : { "MIDI_CC" : 20, "label" : "SD bit" },
+				"slot_10" : { "MIDI_CC" : 21, "label" : "SD pan" },
+				"slot_11" : { "MIDI_CC" : 22, "label" : "SD lvl" },
+				"slot_12" : { "MIDI_CC" : 23, "label" : "SD fx" },
+
+				"slot_13" : { "MIDI_CC" : 24, "label" : "TT on" },
+				"slot_14" : { "MIDI_CC" : 25, "label" : "TT drv" },
+				"slot_15" : { "MIDI_CC" : 26, "label" : "TT bit" },
+				"slot_16" : { "MIDI_CC" : 27, "label" : "TT pan" },
+				"slot_17" : { "MIDI_CC" : 28, "label" : "TT lvl" },
+				"slot_18" : { "MIDI_CC" : 29, "label" : "TT fx" },
+
+				"slot_19" : { "MIDI_CC" : 39, "label" : "CP on" },
+				"slot_20" : { "MIDI_CC" : 40, "label" : "CP drv" },
+				"slot_21" : { "MIDI_CC" : 41, "label" : "CP bit" },
+				"slot_22" : { "MIDI_CC" : 42, "label" : "CP pan" },
+				"slot_23" : { "MIDI_CC" : 43, "label" : "CP lvl" },
+				"slot_24" : { "MIDI_CC" : 44, "label" : "CP fx" },
+
+				"slot_25" : { "MIDI_CC" : 45, "label" : "CB on" },
+				"slot_26" : { "MIDI_CC" : 46, "label" : "CB drv" },
+				"slot_27" : { "MIDI_CC" : 47, "label" : "CB bit" },
+				"slot_28" : { "MIDI_CC" : 48, "label" : "CB pan" },
+				"slot_29" : { "MIDI_CC" : 49, "label" : "CB lvl" },
+				"slot_30" : { "MIDI_CC" : 50, "label" : "CB fx" },
+
+				"slot_31" : { "MIDI_CC" : 51, "label" : "HH on" },
+				"slot_32" : { "MIDI_CC" : 52, "label" : "HH drv" },
+				"slot_33" : { "MIDI_CC" : 53, "label" : "HH bit" },
+				"slot_34" : { "MIDI_CC" : 54, "label" : "HH pan" },
+				"slot_35" : { "MIDI_CC" : 55, "label" : "HH lvl" },
+				"slot_36" : { "MIDI_CC" : 56, "label" : "HH fx" },
+
+				"slot_37" : { "MIDI_CC" : 57, "label" : "S1 on" },
+				"slot_38" : { "MIDI_CC" : 58, "label" : "S1 drv" },
+				"slot_39" : { "MIDI_CC" : 59, "label" : "S1 bit" },
+				"slot_40" : { "MIDI_CC" : 60, "label" : "S1 pan" },
+				"slot_41" : { "MIDI_CC" : 61, "label" : "S1 lvl" },
+				"slot_42" : { "MIDI_CC" : 62, "label" : "S1 fx" },
+
+				"slot_43" : { "MIDI_CC" : 65, "label" : "S2 on" },
+				"slot_44" : { "MIDI_CC" : 66, "label" : "S2 drv" },
+				"slot_45" : { "MIDI_CC" : 67, "label" : "S2 bit" },
+				"slot_46" : { "MIDI_CC" : 68, "label" : "S2 pan" },
+				"slot_47" : { "MIDI_CC" : 69, "label" : "S2 lvl" },
+				"slot_48" : { "MIDI_CC" : 70, "label" : "S2 fx" },
+
+				"slot_49" : { "MIDI_CC" : 71, "label" : "S3 on" },
+				"slot_50" : { "MIDI_CC" : 72, "label" : "S3 drv" },
+				"slot_51" : { "MIDI_CC" : 73, "label" : "S3 bit" },
+				"slot_52" : { "MIDI_CC" : 74, "label" : "S3 pan" },
+				"slot_53" : { "MIDI_CC" : 75, "label" : "S3 lvl" },
+				"slot_54" : { "MIDI_CC" : 76, "label" : "S3 fx" },
+
+				"slot_55" : { "MIDI_CC" : 77, "label" : "S4 on" },
+				"slot_56" : { "MIDI_CC" : 78, "label" : "S4 drv" },
+				"slot_57" : { "MIDI_CC" : 79, "label" : "S4 bit" },
+				"slot_58" : { "MIDI_CC" : 80, "label" : "S4 pan" },
+				"slot_59" : { "MIDI_CC" : 81, "label" : "S4 lvl" },
+				"slot_60" : { "MIDI_CC" : 82, "label" : "S4 fx" },
+
+				"slot_61" : { "MIDI_CC" : 83, "label" : "S5 on" },
+				"slot_62" : { "MIDI_CC" : 84, "label" : "S5 drv" },
+				"slot_63" : { "MIDI_CC" : 85, "label" : "S5 bit" },
+				"slot_64" : { "MIDI_CC" : 86, "label" : "S5 pan" },
+				"slot_65" : { "MIDI_CC" : 87, "label" : "S5 lvl" },
+				"slot_66" : { "MIDI_CC" : 88, "label" : "S5 fx" },
+
+				"slot_67" : { "MIDI_CC" : 89, "label" : "S6 on" },
+				"slot_68" : { "MIDI_CC" : 90, "label" : "S6 drv" },
+				"slot_69" : { "MIDI_CC" : 91, "label" : "S6 bit" },
+				"slot_70" : { "MIDI_CC" : 92, "label" : "S6 pan" },
+				"slot_71" : { "MIDI_CC" : 93, "label" : "S6 lvl" },
+				"slot_72" : { "MIDI_CC" : 94, "label" : "S6 fx" },
+
+				"slot_73" : { "MIDI_CC" : 103, "label" : "DL tim" },
+				"slot_74" : { "MIDI_CC" : 104, "label" : "DL fdb" },
+				"slot_75" : { "MIDI_CC" : 105, "label" : "DL frq" },
+				"slot_76" : { "MIDI_CC" : 106, "label" : "DL res" },
+
+				"slot_79" : { "MIDI_CC" : 109, "label" : "RV pre" },
+				"slot_80" : { "MIDI_CC" : 110, "label" : "RV tim" },
+				"slot_81" : { "MIDI_CC" : 111, "label" : "RV dif" },
+				"slot_82" : { "MIDI_CC" : 112, "label" : "RV ilp" },
+				"slot_83" : { "MIDI_CC" : 113, "label" : "RV hfd" },
+
+				"slot_85" : { "MIDI_CC" : 115, "label" : "FX drv" },
+				"slot_86" : { "MIDI_CC" : 116, "label" : "FX srr" },
+				"slot_87" : { "MIDI_CC" : 117, "label" : "FX brr" },
+				"slot_88" : { "MIDI_CC" : 118, "label" : "FX frq" },
+				"slot_89" : { "MIDI_CC" : 119, "label" : "FX res" }
+            },
+
+			"row_defs" :
+			{
+				"C 3" : { "label" : "BD", "always_show" : true },
+				"D 3" : { "label" : "SD", "always_show" : true },
+				"E 3" : { "label" : "LT", "always_show" : true },
+				"F 3" : { "label" : "MT", "always_show" : true },
+				"G 3" : { "label" : "HT", "always_show" : true },
+				"A 3" : { "label" : "CLP", "always_show" : true },
+				"B 3" : { "label" : "COW", "always_show" : true },
+				"C 4" : { "label" : "CHH", "always_show" : true },
+				"D 4" : { "label" : "OHH", "always_show" : true },
+				"E 4" : { "label" : "SP1", "always_show" : true },
+				"F 4" : { "label" : "SP2", "always_show" : true },
+				"G 4" : { "label" : "SP3", "always_show" : true },
+				"A 4" : { "label" : "SP4", "always_show" : true },
+				"B 4" : { "label" : "SP5", "always_show" : true },
+				"C 5" : { "label" : "SP6", "always_show" : true }
+			},
+
+            "CC_defs" :
+            {
+                "CC_12" : { "label" : "BD on" },
+                "CC_13" : { "label" : "BD drv" },
+                "CC_14" : { "label" : "BD bit" },
+                "CC_15" : { "label" : "BD pan" },
+                "CC_16" : { "label" : "BD lvl" },
+                "CC_17" : { "label" : "BD fx" },
+
+                "CC_18" : { "label" : "SD on"  },
+                "CC_19" : { "label" : "SD drv" },
+                "CC_20" : { "label" : "SD bit" },
+                "CC_21" : { "label" : "SD pan" },
+                "CC_22" : { "label" : "SD lvl" },
+                "CC_23" : { "label" : "SD fx"  },
+
+                "CC_24" : { "label" : "TT on"  },
+                "CC_25" : { "label" : "TT drv" },
+                "CC_26" : { "label" : "TT bit" },
+                "CC_27" : { "label" : "TT pan" },
+                "CC_28" : { "label" : "TT lvl" },
+                "CC_29" : { "label" : "TT fx"  },
+
+                "CC_39" : { "label" : "CP on" },
+                "CC_40" : { "label" : "CP drv" },
+                "CC_41" : { "label" : "CP bit" },
+                "CC_42" : { "label" : "CP pan" },
+                "CC_43" : { "label" : "CP lvl" },
+                "CC_44" : { "label" : "CP fx" },
+
+                "CC_45" : { "label" : "CB on"  },
+                "CC_46" : { "label" : "CB drv" },
+                "CC_47" : { "label" : "CB bit" },
+                "CC_48" : { "label" : "CB pan" },
+                "CC_49" : { "label" : "CB lvl" },
+                "CC_50" : { "label" : "CB fx"  },
+
+                "CC_51" : { "label" : "HH on" },
+                "CC_52" : { "label" : "HH drv" },
+                "CC_53" : { "label" : "HH bit" },
+                "CC_54" : { "label" : "HH pan" },
+                "CC_55" : { "label" : "HH lvl" },
+                "CC_56" : { "label" : "HH fx" },
+
+                "CC_57" : { "label" : "S1 on"  },
+                "CC_58" : { "label" : "S1 drv" },
+                "CC_59" : { "label" : "S1 bit" },
+                "CC_60" : { "label" : "S1 pan" },
+                "CC_61" : { "label" : "S1 lvl" },
+                "CC_62" : { "label" : "S1 fx"  },
+
+                "CC_65" : { "label" : "S2 on"  },
+                "CC_66" : { "label" : "S2 drv" },
+                "CC_67" : { "label" : "S2 bit" },
+                "CC_68" : { "label" : "S2 pan" },
+                "CC_69" : { "label" : "S2 lvl" },
+                "CC_70" : { "label" : "S2 fx"  },
+
+                "CC_71" : { "label" : "S3 on"  },
+                "CC_72" : { "label" : "S3 drv" },
+                "CC_73" : { "label" : "S3 bit" },
+                "CC_74" : { "label" : "S3 pan" },
+                "CC_75" : { "label" : "S3 lvl" },
+                "CC_76" : { "label" : "S3 fx"  },
+
+                "CC_77" : { "label" : "S4 on"  },
+                "CC_78" : { "label" : "S4 drv" },
+                "CC_79" : { "label" : "S4 bit" },
+                "CC_80" : { "label" : "S4 pan" },
+                "CC_81" : { "label" : "S4 lvl" },
+                "CC_82" : { "label" : "S4 fx"  },
+
+                "CC_83" : { "label" : "S5 on"  },
+                "CC_84" : { "label" : "S5 drv" },
+                "CC_85" : { "label" : "S5 bit" },
+                "CC_86" : { "label" : "S5 pan" },
+                "CC_87" : { "label" : "S5 lvl" },
+                "CC_88" : { "label" : "S5 fx"  },
+
+                "CC_89" : { "label" : "S6 on"  },
+                "CC_90" : { "label" : "S6 drv" },
+                "CC_91" : { "label" : "S6 bit" },
+                "CC_92" : { "label" : "S6 pan" },
+                "CC_93" : { "label" : "S6 lvl" },
+                "CC_94" : { "label" : "S6 fx"  },
+
+                "CC_103" : { "label" : "DL tim" },
+                "CC_104" : { "label" : "DL fdb" },
+                "CC_106" : { "label" : "DL frq" },
+                "CC_107" : { "label" : "DL res" },
+
+                "CC_109" : { "label" : "RV pre" },
+                "CC_110" : { "label" : "RV tim" },
+                "CC_111" : { "label" : "RV dif" },
+                "CC_112" : { "label" : "RV ilp" },
+                "CC_113" : { "label" : "RV hfd" },
+
+                "CC_115" : { "label" : "FX drv" },
+                "CC_116" : { "label" : "FX srr" },
+                "CC_117" : { "label" : "FX brr" },
+                "CC_118" : { "label" : "FX frq" },
+                "CC_119" : { "label" : "FX res" }
+            }
+        }
+    }
+}
