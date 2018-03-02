@@ -6,8 +6,8 @@ and Mixer definitions are the full spec for either of those two (mutually
 exclusive) modes.
 
 You can use Parameter and Dual/Sample definitions at the same time on separate
-tracks, sending Parameter mode CCs on channel n and sample-related CCs on
-channel n+1.
+tracks, sending events and Parameter mode CCs on channel n and sample-related
+CCs on channel n+1.
 
 See the docs at:
 
