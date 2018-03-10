@@ -1,0 +1,51 @@
+{
+    "instrument_data" :
+    {
+        "Electribe" :
+        {
+            "midi_port" : 3,
+            "midi_chan" : 1,
+            "multi" : true,
+            "default_note" : "C 5",
+            "default_patt" : "P3",
+            "poly_spread" : "off",
+            "no_thru" : true,
+            "track_values" :
+            {
+                "slot_1" : { "track_control" : "pgm" },
+                "slot_2" : { "MIDI_CC" : 80, "label" : "pitch" },
+                "slot_3" : { "MIDI_CC" : 10, "label" : "pan" },
+                "slot_4" : { "MIDI_CC" : 7, "label" : "vol" },
+                "slot_5" : { "MIDI_CC" : 74, "label" : "cutoff" },
+                "slot_6" : { "MIDI_CC" : 71, "label" : "reso" },
+                "slot_7" : { "MIDI_CC" : 73, "label" : "EG atk" },
+                "slot_8" : { "MIDI_CC" : 72, "label" : "EG rel" },
+                "slot_9" : { "MIDI_CC" : 82, "label" : "oscedt" },
+                "slot_10" : { "MIDI_CC" : 83, "label" : "EGfint" },
+                "slot_11" : { "MIDI_CC" : 86, "label" : "modspd" },
+                "slot_12" : { "MIDI_CC" : 85, "label" : "moddep" },
+                "slot_13" : { "track_control" : "tbase" },
+                "slot_14" : { "track_control" : "quant%" }
+            },
+
+            "CC_defs" :
+            {
+                "CC_7" : {  "label" : "vol" },
+                "CC_10" : {  "label" : "pan" },
+                "CC_71" : {  "label" : "reso" },
+                "CC_72" : {  "label" : "EG rel" },
+                "CC_73" : {  "label" : "EG atk" },
+                "CC_74" : {  "label" : "cutoff" },
+                "CC_80" : {  "label" : "pitch" },
+                "CC_82" : {  "label" : "oscedt" },
+                "CC_83" : {  "label" : "EGfint" },
+                "CC_85" : {  "label" : "moddep" },
+                "CC_86" : {  "label" : "modspd" },
+                "CC_87" : {  "label" : "insfx" },
+                "CC_104" : {  "label" : "IFX on" },
+                "CC_105" : {  "label" : "MFXsnd" },
+                "CC_106" : {  "label" : "tchON" }
+            }
+        }
+    }
+}
