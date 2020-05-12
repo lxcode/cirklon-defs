@@ -1,0 +1,59 @@
+{
+    "instrument_data" :
+    {
+        "DoctorA" :
+        {
+            "midi_port" : 3,
+            "midi_chan" : 16,
+            "default_note" : "C 3",
+            "default_patt" : "P3",
+            "poly_spread" : "off",
+            "track_values" :
+            {
+                "slot_1" : { "track_control" : "pgm" },
+                "slot_2" : { "MIDI_CC" : 12, "label" : "dlytim" },
+                "slot_3" : { "MIDI_CC" : 13, "label" : "dlyfdb" },
+                "slot_4" : { "MIDI_CC" : 14, "label" : "dlymod" },
+                "slot_5" : { "MIDI_CC" : 15, "label" : "dlylvl" },
+
+                "slot_6" : { "MIDI_CC" : 16, "label" : "dlyhpf" },
+                "slot_7" : { "MIDI_CC" : 17, "label" : "dlylpf" },
+                "slot_8" : { "MIDI_CC" : 26, "label" : "modspd" },
+                "slot_9" : { "MIDI_CC" : 18, "label" : "rvbdly" },
+                "slot_10" : { "MIDI_CC" : 19, "label" : "revhpf" },
+
+                "slot_11" : { "MIDI_CC" : 20, "label" : "revlpf" },
+                "slot_12" : { "MIDI_CC" : 21, "label" : "revpre" },
+                "slot_13" : { "MIDI_CC" : 22, "label" : "revdec" },
+                "slot_14" : { "MIDI_CC" : 23, "label" : "revmod" },
+                "slot_15" : { "MIDI_CC" : 24, "label" : "revlvl" },
+
+                "slot_16" : { "MIDI_CC" : 25, "label" : "pposet" }
+            },
+
+            "CC_defs" :
+            {
+                "CC_12" : {  "label" : "dlytim" },
+                "CC_13" : {  "label" : "dlyfdb" },
+                "CC_14" : {  "label" : "dlymod" },
+                "CC_15" : {  "label" : "dlylvl" },
+                "CC_16" : {  "label" : "dlyhpf" },
+                "CC_17" : {  "label" : "dlylpf" },
+                "CC_18" : {  "label" : "rvbdly" },
+                "CC_19" : {  "label" : "revhpf" },
+                "CC_20" : {  "label" : "revlpf" },
+                "CC_21" : {  "label" : "revpre" },
+                "CC_22" : {  "label" : "revdec" },
+                "CC_23" : {  "label" : "revmod" },
+                "CC_24" : {  "label" : "revlvl" },
+                "CC_25" : {  "label" : "pposet" },
+                "CC_26" : {  "label" : "modspd" },
+                "CC_64" : {  "label" : "dlytap" },
+                "CC_102" : {  "label" : "dlyon" },
+                "CC_103" : {  "label" : "revon" },
+                "CC_104" : {  "label" : "dlyon2" },
+                "CC_105" : {  "label" : "revon2" }
+            }
+        }
+    }
+}
