@@ -1,0 +1,93 @@
+{
+    "instrument_data" :
+    {
+        "BlackBox" :
+        {
+        "midi_port" : 4,
+        "midi_chan" : 1,
+        "multi" : false,
+        "poly_spread" : "off",
+        "default_note" : "C 3",
+        "default_patt" : "CK",
+        "multi" : false,
+        "no_xpose" : true,
+        "no_fts" : true,
+        "no_thru" : true,
+        "track_values" :
+            {
+                "slot_1" : { "MIDI_CC"       : 10, "label"        : "pan" },
+                "slot_2" : { "MIDI_CC"       : 7, "label"         : "vol" },
+                "slot_3" : { "MIDI_CC"       : 1, "label"         : "modwh" },
+
+                "slot_7" : { "MIDI_CC"       : 74, "label"        : "cutoff" },
+                "slot_8" : { "MIDI_CC"       : 71, "label"        : "reso" },
+                "slot_9" : { "MIDI_CC"       : 86, "label"        : "flt lvl" },
+                "slot_10" : { "MIDI_CC"       : 87, "label"        : "flt pch" },
+
+                "slot_13" : { "MIDI_CC"       : 73, "label"        : "EG atk" },
+                "slot_14" : { "MIDI_CC"       : 80, "label"        : "EG dec" },
+                "slot_15" : { "MIDI_CC"       : 85, "label"        : "EG sus" },
+                "slot_16" : { "MIDI_CC"       : 72, "label"        : "EG rel" },
+
+                "slot_19" : { "MIDI_CC"       : 39, "label"        : "lfo wav" },
+                "slot_20" : { "MIDI_CC"       : 40, "label"        : "lfo dep" },
+                "slot_21" : { "MIDI_CC"       : 41, "label"        : "lfo rat" },
+
+                "slot_25" : { "MIDI_CC"       : 42, "label"        : "rev dec" },
+                "slot_26" : { "MIDI_CC"       : 43, "label"        : "rev dmp" },
+                "slot_27" : { "MIDI_CC"       : 44, "label"        : "rev pre" },
+
+                "slot_33" : { "MIDI_CC"       : 45, "label"        : "dly lvl" },
+                "slot_34" : { "MIDI_CC"       : 46, "label"        : "dly cut" },
+                "slot_36" : { "MIDI_CC"       : 47, "label"        : "dly fdb" },
+                "slot_37" : { "MIDI_CC"       : 48, "label"        : "dly wth" },
+                "slot_38" : { "track_control" : "quant%" }
+            },
+
+    "CC_defs" :
+    {
+        "CC_1"  : {  "label" : "modwh" },
+        "CC_7"  : {  "label" : "vol" },
+        "CC_10" : {  "label" : "pan" },
+        "CC_74" : {  "label" : "cutoff" },
+        "CC_71" : {  "label" : "reso" },
+        "CC_73" : {  "label" : "EG atk" },
+        "CC_80" : {  "label" : "EG dec" },
+        "CC_85" : {  "label" : "EG sus" },
+        "CC_72" : {  "label" : "EG rel" },
+        "CC_86" : {  "label" : "flt lvl" },
+        "CC_87" : {  "label" : "flt pch" },
+        "CC_39" : {  "label" : "lfo wav" },
+        "CC_40" : {  "label" : "lfo dep" },
+        "CC_41" : {  "label" : "lfo rat" },
+        "CC_42" : {  "label" : "rev dec" },
+        "CC_43" : {  "label" : "rev dmp" },
+        "CC_44" : {  "label" : "rev pre" },
+        "CC_45" : {  "label" : "dly lvl" },
+        "CC_46" : {  "label" : "dly cut" },
+        "CC_47" : {  "label" : "dly fdb" },
+        "CC_48" : {  "label" : "dly wth" }
+            },
+
+    "row_defs" :
+    {
+        "C 3" : { "label" : "p1", "always_show" : true },
+        "C#3" : { "label" : "p2", "always_show" : true },
+        "D 3" : { "label" : "p3", "always_show" : true },
+        "D#3" : { "label" : "p4", "always_show" : true },
+        "E 3" : { "label" : "p5", "always_show" : true },
+        "F 3" : { "label" : "p6", "always_show" : true },
+        "F#3" : { "label" : "p7", "always_show" : true },
+        "G 3" : { "label" : "p8", "always_show" : true },
+        "G#3" : { "label" : "p9", "always_show" : true },
+        "A 3" : { "label" : "p10", "always_show" : true },
+        "A#3" : { "label" : "p11", "always_show" : true },
+        "B 3" : { "label" : "p12", "always_show" : true },
+        "C 4" : { "label" : "p13", "always_show" : true },
+        "C#4" : { "label" : "p14", "always_show" : true },
+        "D 4" : { "label" : "p15", "always_show" : true },
+        "D#4" : { "label" : "p16", "always_show" : true }
+            }
+        }
+    }
+}
